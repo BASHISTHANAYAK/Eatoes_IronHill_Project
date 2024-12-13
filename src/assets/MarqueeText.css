@@ -1,0 +1,18 @@
+.marquee-container {
+  width: 100%; /* Full-width container */
+  overflow: hidden; /* Hide overflowing text */
+  white-space: nowrap; /* Prevent text from wrapping */
+  position: relative;
+  background-color: #ffd603;
+  padding: 7px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 67px;
+}
+
+.marquee-content {
+  display: inline-block;
+  white-space: nowrap;
+  color: #333;
+  will-change: transform; /* Optimize for animations */
+}

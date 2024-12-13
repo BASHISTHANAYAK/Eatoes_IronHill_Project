@@ -1,9 +1,13 @@
 nav {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   align-items: center;
-  background-color: black;
+  /* background-color: black; */
   color: white;
+  position: absolute;
+  top: 10px;
+  z-index: 10;
+  width: 100%;
 }
 nav img {
   width: 43px;
@@ -11,6 +15,7 @@ nav img {
 }
 nav > p {
   margin-left: 5%;
+
 }
 .restName {
   font-weight: bold;
@@ -19,4 +24,5 @@ nav > p {
   font-weight: bolder;
   font-size: 1.4rem;
   cursor: pointer;
+
 }

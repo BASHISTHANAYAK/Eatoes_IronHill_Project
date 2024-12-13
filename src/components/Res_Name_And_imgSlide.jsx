@@ -1,3 +1,5 @@
+import ImageCarousel from "../assets/ImageCarousel"
+import MarqueeText from "../assets/MarqueeText"
 import imgSlideCss from "../styles/Res_Name_And_imgSlide.module.css"
 const Res_Name_And_imgSlide = () => {
   return (
@@ -13,10 +15,11 @@ const Res_Name_And_imgSlide = () => {
           Iron hill bengaluru
         </p>
       </nav>
-      <section>
-        
-      </section>
+      {/* image Carousel */}
+      <ImageCarousel />
 
+      {/* import yellow text auto scrolling  */}
+      <MarqueeText />
     </div>
   )
 }

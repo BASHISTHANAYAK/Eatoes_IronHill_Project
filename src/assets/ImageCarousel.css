@@ -20,6 +20,7 @@
   width: 100%;
   height: auto;
   display: block;
+  object-fit: cover;
 }
 
 .carousel-control {
@@ -55,12 +56,14 @@
 .dot {
   width: 10px;
   height: 10px;
-  background: white;
+  background: #7c8383;
   border-radius: 50%;
   cursor: pointer;
   transition: background 0.3s ease;
 }
 
 .dot.active {
-  background: red;
+  background: #82c5b2;
+  width: 15px;
+  border-radius: 30px;
 }
