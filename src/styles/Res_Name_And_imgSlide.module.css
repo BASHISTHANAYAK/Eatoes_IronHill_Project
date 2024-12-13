@@ -1,0 +1,22 @@
+nav {
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+nav img {
+  width: 43px;
+  border-radius: 50%;
+}
+nav > p {
+  margin-left: 5%;
+}
+.restName {
+  font-weight: bold;
+}
+.leftArrow {
+  font-weight: bolder;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
