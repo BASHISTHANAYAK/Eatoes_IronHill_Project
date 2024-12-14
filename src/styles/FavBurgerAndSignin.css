@@ -1,0 +1,59 @@
+.FavBurgerAndSignin_container {
+  /* border: 3px solid red; */
+  /* padding: 10px 14px 10px 14px; */
+  height: 400px;
+  width: 98%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  position: relative;
+}
+.FavBurgerAndSignin_container {
+  background-image: url("https://c0.wallpaperflare.com/preview/189/197/185/burger-food-bokeh-blur.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.FavBurgerAndSignin_container > section {
+  /* border: 2px solid red; */
+  display: inline-block;
+  color: white;
+  font-family: inter;
+  text-align: center;
+  /* font-weight:lighter; */
+  padding: 5% 0 10% 7%;
+  font-size: 30px;
+  line-height: 50px;
+}
+.FavBurgerAndSignin_container > section > button {
+  border: none;
+  padding: 4px 13px;
+  background-color: #2f80ed;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.rightArrow {
+  color: white;
+  font-size: 26px;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .FavBurgerAndSignin_container {
+    height: 200px;
+    width: 93%;
+  }
+  .FavBurgerAndSignin_container > section {
+    font-size: 17px;
+    line-height: 33px;
+  }
+  .FavBurgerAndSignin_container > section > button {
+    padding: 4px 13px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+}
