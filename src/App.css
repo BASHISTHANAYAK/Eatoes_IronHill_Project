@@ -1,5 +1,6 @@
 .UpcomingHeadingTxt,
-.ExclusivelyHeadingTxt {
+.ExclusivelyHeadingTxt,
+.CategoriesHeadingTxt {
   /* border: 2px solid red; */
   padding: 20px;
   font-family: Robert;
@@ -7,7 +8,8 @@
 }
 @media screen and (max-width: 600px) {
   .UpcomingHeadingTxt,
-  .ExclusivelyHeadingTxt {
+  .ExclusivelyHeadingTxt,
+  .CategoriesHeadingTxt {
     font-size: 20px;
   }
 }

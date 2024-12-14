@@ -7,6 +7,7 @@ import ResponsiveCircularCarousel from './components/CircularImageCarousel ';
 import FavBurgerAndSignin from './components/FavBurgerAndSignin';
 import UpcomingEvents from './components/UpcomingEvents';
 import Exclusively from './components/ExclusivelyYours';
+import Categories from './components/Categories';
 
 function App() {
 
@@ -21,8 +22,11 @@ function App() {
       <UpcomingEvents />
       {/* ExclusivelyYours */}
       <h3 className='ExclusivelyHeadingTxt'>Exclusively yours</h3>
-
       <Exclusively />
+      {/* Categories */}
+      <h3 className='CategoriesHeadingTxt'>Categories</h3>
+
+      <Categories />
 
     </>
   )
