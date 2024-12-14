@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import ResponsiveCircularCarousel from './components/CircularImageCarousel ';
 import FavBurgerAndSignin from './components/FavBurgerAndSignin';
 import UpcomingEvents from './components/UpcomingEvents';
+import Exclusively from './components/ExclusivelyYours';
 
 function App() {
 
@@ -18,6 +19,10 @@ function App() {
       {/*  */}
       <h3 className='UpcomingHeadingTxt'>Upcoming Events</h3>
       <UpcomingEvents />
+      {/* ExclusivelyYours */}
+      <h3 className='ExclusivelyHeadingTxt'>Exclusively yours</h3>
+
+      <Exclusively />
 
     </>
   )
