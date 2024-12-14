@@ -9,12 +9,15 @@ wq2
 }
 
 .mySwiper {
+  /* border: 2px solid red; */
   width: 100%;
   padding-bottom: 50px;
 }
 
 .swiperCustomSlide {
+  /* border: 2px solid blue; */
   display: flex;
+  width: 400px;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -37,6 +40,7 @@ wq2
 }
 
 .slide {
+  /* border: 2px solid rgb(0, 255, 55); */
   position: relative;
   display: flex;
   flex-direction: column;
@@ -73,4 +77,15 @@ wq2
 
 .buyNowBtn:hover {
   background-color: #357ab7;
+}
+
+@media screen and (max-width: 600px) {
+  .swiperCustomSlide {
+    /* border: 2px solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
 }

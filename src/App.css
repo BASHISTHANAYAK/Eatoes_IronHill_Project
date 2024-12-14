@@ -1,5 +1,12 @@
-.UpcomingHeadingTxt{
-    /* border: 2px solid red; */
-    padding: 6% ;
+.UpcomingHeadingTxt {
+  /* border: 2px solid red; */
+  padding: 20px;
+  font-family: Robert;
+  font-size: 30px;
+}
+@media screen and (max-width: 600px) {
+  .UpcomingHeadingTxt {
+    font-size: 20px;
     font-family: Robert;
+  }
 }

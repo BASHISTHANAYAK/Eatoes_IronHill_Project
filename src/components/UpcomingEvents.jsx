@@ -15,6 +15,10 @@ const Carousel = () => {
     { id: 2, src: "/Images/upcomingEvent2.jpg", title: "DJ Night by Stephen | Dec 02" },
     { id: 3, src: "/Images/upcomingEvent3.jpg", title: "Image 3" },
     { id: 4, src: "/Images/upcomingEvent4.jpg", title: "Image 4" },
+    { id: 5, src: "/Images/upcomingEvent1.jpg", title: "Image 5" },
+    { id: 6, src: "/Images/upcomingEvent2.jpg", title: "6" },
+    { id: 7, src: "/Images/upcomingEvent3.jpg", title: "Image 7" },
+    { id: 8, src: "/Images/upcomingEvent4.jpg", title: "Image 8" },
   ];
 
 
