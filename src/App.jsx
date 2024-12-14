@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ResponsiveCircularCarousel from './components/CircularImageCarousel ';
 import FavBurgerAndSignin from './components/FavBurgerAndSignin';
+import UpcomingEvents from './components/UpcomingEvents';
 
 function App() {
 
@@ -14,6 +15,9 @@ function App() {
       <Res_Name_And_imgSlide />
       <ResponsiveCircularCarousel />
       <FavBurgerAndSignin />
+      {/*  */}
+      <h3 className='UpcomingHeadingTxt'>Upcoming Events</h3>
+      <UpcomingEvents />
 
     </>
   )

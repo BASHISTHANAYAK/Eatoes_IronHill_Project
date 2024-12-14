@@ -3,7 +3,7 @@ import "./ImageCarousel.css";
 
 const ImageCarousel = () => {
   const images = [
-    "/public/Images/navCrousalFirstImg.png",
+    "https://b.zmtcdn.com/data/pictures/chains/7/19672427/ffd3bd04d6c61ee80c0d4af8d661752f.jpg?fit=around|750:500&crop=750:500;*,*",
     "https://www.bottleneckmgmt.com/wp-content/uploads/2016/02/900x600-Types-of-Beer-Glasses.png",
     "https://img.freepik.com/premium-photo/fresh-cold-beer-glass-bar-background_93675-144163.jpg",
     "https://content.kegworks.com/hubfs/Blog/kegworks-guide-to-beer-glassware.jpg",

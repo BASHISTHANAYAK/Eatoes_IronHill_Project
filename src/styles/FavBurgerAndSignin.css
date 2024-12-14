@@ -22,7 +22,7 @@
   text-align: center;
   /* font-weight:lighter; */
   padding: 5% 0 10% 7%;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 50px;
 }
 .FavBurgerAndSignin_container > section > button {
@@ -44,16 +44,17 @@
 }
 @media screen and (max-width: 600px) {
   .FavBurgerAndSignin_container {
-    height: 200px;
+    height: 170px;
     width: 93%;
   }
   .FavBurgerAndSignin_container > section {
     font-size: 17px;
-    line-height: 33px;
+    line-height:1.6rem;
   }
   .FavBurgerAndSignin_container > section > button {
     padding: 4px 13px;
     border-radius: 5px;
     font-size: 16px;
+    margin-top: 7%;
   }
 }

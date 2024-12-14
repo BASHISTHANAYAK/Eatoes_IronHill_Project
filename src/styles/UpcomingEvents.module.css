@@ -1,0 +1,76 @@
+wq2
+/* ************************************** */
+
+.carouselContainer {
+  width: 100%;
+  max-width: 400px; /* Limits container size */
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.mySwiper {
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.swiperCustomSlide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.swiperCustomSlideHeart {
+  color: white;
+  z-index: 20;
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  font-size: 20px;
+}
+
+.carouselImage {
+  width: 300px; /* Fix width */
+  height: 450px; /* Fix height */
+  object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 20px; /* Rounded corners */
+}
+
+.slide {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+}
+
+.content {
+  margin-top: 2%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  color: black;
+  font-family: Robert;
+}
+
+.content p {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.buyNowBtn {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 8px 26px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.buyNowBtn:hover {
+  background-color: #357ab7;
+}

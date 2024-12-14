@@ -29,8 +29,7 @@ const MarqueeText = () => {
     return (
         <div className="marquee-container">
             <div className="marquee-content" ref={marqueeRef}>
-                This is a long scrolling text that loops continuously from right to left.
-            </div>
+                This is a very important announcement, in case you missed our delicious food.             </div>
         </div>
     );
 };
