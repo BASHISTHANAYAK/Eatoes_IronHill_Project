@@ -3,7 +3,7 @@
   overflow: hidden; /* Hide overflowing text */
   white-space: nowrap; /* Prevent text from wrapping */
   position: relative;
-  background-color: #ffd603;
+  background-color: #ffb702;
   padding: 7px;
   box-sizing: border-box;
   position: absolute;
@@ -15,4 +15,6 @@
   white-space: nowrap;
   color: #333;
   will-change: transform; /* Optimize for animations */
+  font-family: inter;
+  font-weight: 500;
 }

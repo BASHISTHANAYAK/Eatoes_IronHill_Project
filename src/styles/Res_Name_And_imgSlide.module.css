@@ -14,13 +14,18 @@ nav img {
   border-radius: 50%;
 }
 nav > p {
-  margin-left: 5%;
+  margin-left: 6%;
 }
 .restName {
   font-weight: bold;
+  font-family: inter;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 20px;
 }
 .leftArrow {
   font-weight: bolder;
   font-size: 1.4rem;
   cursor: pointer;
+  font-size: 27px;
 }
