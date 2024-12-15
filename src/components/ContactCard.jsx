@@ -26,28 +26,37 @@ const ContactCard = () => {
             {/* Contact Info Section */}
             <div className={styles.contactInfo}>
                 <h3>Contact Info</h3>
+
                 <div className={styles.infoItem}>
                     <strong>Address</strong>
                     <p>
                         Sy no 90, 7 & 90/8, Marathahalli - Sarjapur Outer Ring 560037{' '}
+                        <br />
+                        <a href="#" className={styles.textWithArrow}>Get direction →</a>
+
                     </p>
-                    <a href="#" className={styles.textWithArrow}>Get direction →</a>
                 </div>
+
                 <div className={styles.infoItem}>
                     <strong>Call Us</strong>
                     <p>+91 9082546789</p>
                 </div>
+
                 <div className={styles.infoItem}>
                     <strong>Email Id</strong>
                     <p>eatoes121@gmail.com</p>
                 </div>
+
                 <div className={styles.infoItem}>
                     <strong>Timings</strong>
                     <p>
                         MON - SUN <span className={styles.timeSlot}>10:00AM - 12:00PM</span>
+                        <br />
+                        <a href="#" className={styles.textWithArrow}>See weekly timings →</a>
+
                     </p>
-                    <a href="#" className={styles.textWithArrow}>See weekly timings →</a>
                 </div>
+
             </div>
 
             {/* Follow Us Section */}

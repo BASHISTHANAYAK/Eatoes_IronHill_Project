@@ -91,6 +91,8 @@
 .infoItem {
   /* border: 2px solid white; */
   margin-bottom: 1rem;
+  display: flex;
+  gap: 5%;
 }
 
 .infoItem strong {

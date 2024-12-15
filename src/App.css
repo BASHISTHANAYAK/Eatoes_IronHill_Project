@@ -3,8 +3,8 @@
 .CategoriesHeadingTxt {
   /* border: 2px solid red; */
   padding: 20px;
-  font-family: Robert;
-  font-size: 30px;
+  font-family: Inter;
+  font-size: 28px;
 }
 @media screen and (max-width: 600px) {
   .UpcomingHeadingTxt,
