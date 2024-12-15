@@ -3,10 +3,10 @@ import "./ImageCarousel.css";
 
 const ImageCarousel = () => {
   const images = [
-    "https://b.zmtcdn.com/data/pictures/chains/7/19672427/ffd3bd04d6c61ee80c0d4af8d661752f.jpg?fit=around|750:500&crop=750:500;*,*",
-    "https://images.pexels.com/photos/1269036/pexels-photo-1269036.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "https://images.pexels.com/photos/1267256/pexels-photo-1267256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "https://images.pexels.com/photos/7061551/pexels-photo-7061551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "/Images/NavCrousalImg1.jpg",
+    "/Images/NavCrousalImg2.jpg",
+    "/Images/NavCrousalImg3.jpg",
+    "/Images/NavCrousalImg4.jpg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

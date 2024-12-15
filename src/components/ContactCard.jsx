@@ -66,7 +66,7 @@ const ContactCard = () => {
                     {/* <FaFacebook />
                     <FaInstagram /> */}
                     <img src="/Images/FacebookLogo.png" alt="FB" />
-                    <img src="/public/Images/instagramLogo.png" alt="Insta" />
+                    <img src="/Images/instagramLogo.png" alt="Insta" />
                 </div>
             </div>
 
