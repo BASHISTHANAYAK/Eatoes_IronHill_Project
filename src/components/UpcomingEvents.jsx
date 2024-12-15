@@ -11,14 +11,15 @@ import UpcomingEventsCss from "../styles/UpcomingEvents.module.css";
 const Carousel = () => {
 
   const slides = [
-    { id: 1, src: "/Images/upcomingEvent1.jpg", title: "Image 1" },
-    { id: 2, src: "/Images/upcomingEvent2.jpg", title: "DJ Night by Stephen | Dec 02" },
-    { id: 3, src: "/Images/upcomingEvent3.jpg", title: "Image 3" },
-    { id: 4, src: "/Images/upcomingEvent4.jpg", title: "Image 4" },
-    { id: 5, src: "/Images/upcomingEvent1.jpg", title: "Image 5" },
-    { id: 6, src: "/Images/upcomingEvent2.jpg", title: "6" },
-    { id: 7, src: "/Images/upcomingEvent3.jpg", title: "Image 7" },
-    { id: 8, src: "/Images/upcomingEvent4.jpg", title: "Image 8" },
+    { id: 1, src: "https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/upcomingEvent1.jpg?raw=true", title: "Image 1" },
+    { id: 2, src: "https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/upcomingEvent2.jpg?raw=true", title: "DJ Night by Stephen | Dec 02" },
+    { id: 3, src: "https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/upcomingEvent3.jpg?raw=true", title: "Image 3" },
+    { id: 4, src: "https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/upcomingEvent4.jpg?raw=true", title: "Image 4" },
+    { id: 5, src: "https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/upcomingEvent1.jpg?raw=true", title: "Image 5" },
+    { id: 6, src: "https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/upcomingEvent2.jpg?raw=true", title: "DJ Night by Stephen | Dec 02" },
+    { id: 7, src: "https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/upcomingEvent3.jpg?raw=true", title: "Image 7" },
+    { id: 8, src: "https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/upcomingEvent4.jpg?raw=true", title: "Image 8" },
+    
   ];
 
 

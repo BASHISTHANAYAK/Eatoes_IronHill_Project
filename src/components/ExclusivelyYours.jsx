@@ -6,12 +6,13 @@ import styles from "../styles/Exclusively.module.css";
 
 const Exclusively = () => {
     const items = [
-        { id: 1, image: "Images/ExclusivelyImg1.jpg", text: "Chicken Burger" },
-        { id: 2, image: "Images/ExclusivelyImg2.jpg", text: "French Fries" },
-        { id: 3, image: "Images/ExclusivelyImg3.jpg", text: "Beer" },
-        { id: 4, image: "Images/ExclusivelyImg4.jpg", text: "Pasta" },
-        { id: 5, image: "Images/ExclusivelyImg1.jpg", text: "Chicken Burger" },
-        { id: 6, image: "Images/ExclusivelyImg2.jpg", text: "French Fries" },
+        { id: 1, image: "https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/ExclusivelyImg1.jpg?raw=true", text: "Chicken Burger" },
+        { id: 2, image: "https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/ExclusivelyImg2.jpg?raw=true.jpg", text: "French Fries" },
+        { id: 3, image: "https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/ExclusivelyImg3.jpg?raw=true", text: "Beer" },
+        { id: 4, image: "https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/ExclusivelyImg4.jpg?raw=true", text: "Pasta" },
+        { id: 5, image: "https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/ExclusivelyImg1.jpg?raw=true", text: "Chicken Burger" },
+        { id: 6, image: "https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/ExclusivelyImg2.jpg?raw=true.jpg", text: "French Fries" },
+
     ];
 
     return (

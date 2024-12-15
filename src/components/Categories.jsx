@@ -2,10 +2,10 @@ import styles from "../styles/Categories.module.css";
 
 const Categories = () => {
     const items = [
-        { id: 1, image: "/Images/CategoriesImg1.jpg", title: "Food Menu" },
-        { id: 2, image: "/Images/CategoriesImg2.jpg", title: "Hard Drinks" },
-        { id: 3, image: "/Images/CategoriesImg3.jpg", title: "Party Menu" },
-        { id: 4, image: "/Images/CategoriesImg4.jpeg", title: "Imported Liquor Menu" },
+        { id: 1, image: "https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/CategoriesImg1.jpg?raw=true", title: "Food Menu" },
+        { id: 2, image: "https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/CategoriesImg2.jpg?raw=true", title: "Hard Drinks" },
+        { id: 3, image: "https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/CategoriesImg3.jpg?raw=true", title: "Party Menu" },
+        { id: 4, image: "https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/CategoriesImg4.jpeg?raw=true", title: "Imported Liquor Menu" },
     ];
 
     return (

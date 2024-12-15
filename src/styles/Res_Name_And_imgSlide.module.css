@@ -14,18 +14,29 @@ nav img {
   border-radius: 50%;
 }
 nav > p {
-  margin-left: 6%;
+  margin-left: 3%;
 }
 .restName {
   font-weight: bold;
   font-family: inter;
   font-weight: 500;
   line-height: 24px;
-  font-size: 20px;
+  font-size: 25px;
 }
 .leftArrow {
   font-weight: bolder;
   font-size: 1.4rem;
   cursor: pointer;
   font-size: 27px;
+}
+
+@media screen and (max-width:600px){
+  nav > p {
+    margin-left: 6%;
+  }
+  .restName {
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 20px;
+  }
 }

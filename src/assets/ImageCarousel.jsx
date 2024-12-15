@@ -3,10 +3,10 @@ import "./ImageCarousel.css";
 
 const ImageCarousel = () => {
   const images = [
-    "/Images/NavCrousalImg1.jpg",
-    "/Images/NavCrousalImg2.jpg",
-    "/Images/NavCrousalImg3.jpg",
-    "/Images/NavCrousalImg4.jpg",
+    "https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/NavCrousalImg1.jpg?raw=true",
+    "https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/NavCrousalImg2.jpg?raw=true",
+    "https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/NavCrousalImg3.jpg?raw=true",
+    "https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/NavCrousalImg4.jpg?raw=true",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

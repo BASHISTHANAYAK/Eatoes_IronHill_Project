@@ -63,10 +63,16 @@ const ContactCard = () => {
             <div className={styles.socialSection}>
                 <h3 className={styles.FollowUs}>Follow Us</h3>
                 <div className={styles.socialIcons}>
-                    {/* <FaFacebook />
-                    <FaInstagram /> */}
-                    <img src="/Images/FacebookLogo.png" alt="FB" />
-                    <img src="/Images/instagramLogo.png" alt="Insta" />
+                    <a href="https://www.facebook.com/eatoesofficial/" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/FacebookLogo.png?raw=true" alt="FB" />
+
+                    </a>
+                    <a href="https://www.instagram.com/eatoesofficial/" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="https://github.com/BASHISTHANAYAK/Eatoes_IronHill_Project/blob/main/public/Images/instagramLogo.png?raw=true" alt="Insta" />
+
+                    </a>
                 </div>
             </div>
 
